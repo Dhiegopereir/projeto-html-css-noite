@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Fomulario</title>
+                <style>
+                                body{
+                                                font-family: calibri, sans-serif;
+                                                font-size: 1.5em;
+                                }
+
+                </style>
+</head>
+<body>
+         <form action=""  method="get">
+                <P>
+                                <label for="idfoto">Foto do perfil</label>
+                                <input type="file" name="foto" id="idfoto" accept="image/*">
+                </P>
+   
+
+                <p>
+                                <label for="idage">idade:</label>
+                                <input type="number" name="age " id="idage " min="1" max="125">
+                </p>
+                <p>
+                                <fieldset>
+                                                <legend>
+                                                                sexo
+                                                </legend>
+                                                <input type="radio" name="sexo" id="idsexm">
+                                                <label for="idsexm">Masculino</label>
+                                                <input type="radio" name="sexo" id="idsexf">
+                                                <label for="idsexf">Femenino</label>
+                                </fieldset>
+                </p>
+                <p>
+                                <label for="idmail">E-mail</label>
+                                <input type="email" name="email" id="idemail" size="10" maxlength="30" placeholder="seu@email.com">
+                </p>
+                <p>
+                                <label for="idsenha">senha</label>
+                                <input type="password" name="senha" id="idsenha" maxlength="6" minlength="8" size="8">
+                </p>
+                <label for="idfone">Telefone</label>
+                <input type="tel" name="fone" id="idfone" placeholder="(XX)XXXX-XXXX" pattern="\([0-9]{2}\)([\s])[0-9]{3,6}-[0-9]{4}">
+                
+                <p>
+                                <p>
+                                                <label for="idmes">Mes de Aniversario</label>
+                                                <input type="month" name="mes" id="idmes">
+                                </p>
+                                <p>
+                                                <label for="ididade">idade</label>
+                                                <input type="date" name="data" id="ididade">
+                                </p>
+                                <p>
+                                                <label for="idhora">hora</label>
+                                                <input type="time" name="hora" id="idhora">
+                                </p>
+                                <p>
+                                                <label for="idcor">cor do pro dutor</label>
+                                                <input type="color" name="cor" id="idcor">
+                                </p>
+                                 <fieldset>
+                                                <legend>Habilidades</legend>
+                                
+                                                <p>
+                                                                <label for="Habilidades">HTML</label>
+                                                                <input type="checkbox" name="h2" id="1dh2"><br>
+                                                
+                                                
+                                                                <label for="Habilidades">CSS3</label>
+                                                                <input type="checkbox" name="h3" id="1dh3"><br>
+                                                
+                                               
+                                                                <label for="Habilidades">javascript</label>
+                                                                <input type="checkbox" name="h4" id="1dh2">
+                                                
+                                 </fieldset>
+                                </p>
+                              
+                                <input type="submit" value="enviar">
+                </p>
+         </form>       
+</body>
+</html>
