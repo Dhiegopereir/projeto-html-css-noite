@@ -1,0 +1,84 @@
+* {
+                margin: 0;
+                font-family: Calibri, sans-serif;
+              }
+              
+              header {
+                background: linear-gradient(#506a76, #729fb5);
+                height: 6em;
+                text-align: center;
+                color: white;
+                padding-top: 1em;
+              }
+              
+              h2 {
+                text-align: center;
+                color: #82b0da;
+                margin: 10px;
+              }
+              
+              strong {
+                background-color: #bf8c91;
+                border-radius: 20px;
+                padding: 5px;
+                color: #fff;
+              }
+              
+              .principal {
+                background-color: #f1f1eb;
+                max-width: 1000px;
+              
+                margin: 10px auto;
+              }
+              main {
+                max-width: 900px;
+                margin: 50px auto;
+                background: aliceblue;
+                padding: 20px;
+              }
+              
+              .rp {
+                text-align: center;
+                margin-bottom: 30px;
+              }
+              
+              .colunas p {
+                background-color: #bf8c91;
+                color: #fff;
+                width: 250px;
+                height: 30px;
+                margin: 10px;
+                border-radius: 20px;
+                text-align: center;
+              }
+              
+              .colunas {
+                width: 400px;
+                height: 200px;
+                display: flex;
+                gap: 30px;
+                margin: auto;
+              }
+              
+              .corpo {
+                width: 700px;
+                margin: auto;
+                padding: 20px;
+              }
+              
+              .corpo label {
+                display: block;
+                margin-bottom: 5px;
+              }
+              
+              .corpo input {
+                width: 100%;
+                margin-bottom: 10px;
+              }
+              
+              .corpo input[type="submit"],
+              .corpo input[type="reset"] {
+                width: auto;
+                margin-top: 10px;
+              }
+              
