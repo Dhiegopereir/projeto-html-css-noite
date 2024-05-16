@@ -1,0 +1,14 @@
+.form {
+  display: inline-block;
+  flex-direction: column;
+  padding: 25px; /* Adicionei um espaçamento interno para melhorar a aparência */
+  margin-right: 20px;
+  text-align: right; /* Alinha o conteúdo à direita */
+}
+
+input {
+  display: block;
+  height: 20px;
+  width: 200px;
+  margin-bottom: 10px; /* Adicionei um espaçamento entre os campos de entrada */
+}

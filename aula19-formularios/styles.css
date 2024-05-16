@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+* {
+  margin: 0;
+  font-family: Calibri, sans-serif;
+}
+
+header {
+  background: linear-gradient(#506a76, #729fb5);
+  height: 6em;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+}
+h1 {
+  font-family: "Alfa Slab One", serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #82b0da;
+  margin: 10px;
+}
+
+strong {
+  background-color: #bf8c91;
+  border-radius: 20px;
+  padding: 5px;
+  color: #fff;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+.principal {
+  background-color: #f1f1eb;
+  height: 1051px;
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 21px;
+  border-radius: 10px;
+}
+
+article {
+  justify-content: center;
+  align-items: center;
+}
+fieldset {
+  border-color: #96757a;
+}
+
+main {
+  max-width: 900px;
+  height: 1000px;
+  margin-top: 1000px;
+  margin: 10px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.rp {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.colunas p {
+  background-color: #bf8c91;
+  color: #fff;
+  width: 250px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.colunas {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  gap: 30px;
+  margin: auto;
+}
+
+.corpo {
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.corpo input {
+  margin-bottom: 10px;
+}
+
+.cb input {
+  display: block;
+  width: 300px;
+}
+
+.foot {
+  display: block;
+  text-align: center;
+}
+
+.foot input {
+  width: 200px;
+  background-color: #729fb5;
+  color: #fff;
+  border: none;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.corpo input[type="submit"],
+.corpo input[type="reset"] {
+  width: auto;
+  margin-top: 10px;
+}
+
+.checkbox-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-options p {
+  margin: 5px 0;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+footer > h3 {
+  padding: 23px;
+  color: #fff;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  background-color: #506a76;
+  text-align: center;
+  height: 100px;
+}

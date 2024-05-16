@@ -1,0 +1,16 @@
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.submit {
+  width: 8em;
+  height: 2em;
+  background-color: #f4d190;
+  color: #8d836f;
+  border: none;
+}
+input:not(.submit) {
+  width: 21em;
+  height: 2em;
+}

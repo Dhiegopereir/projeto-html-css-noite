@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      font-family: Calibri, sans-serif;
+      font-size: 1.5em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <form action="" method="get">
+    <p>
+      <label for="" id="idfoto">Foto de Perfil</label>
+      <input type="file" name="foto" id="idfoto" accept="image/*">
+    </p>
+
+    <p>
+      <label for="idade">Idade:</label>
+      <input type="number" name="age" id="idade" min="1" max="125">
+    </p>
+
+    <p>
+    <fieldset>
+      <legend>Sexo</legend>
+      <input type="radio" name="sexo" id="idsexm">
+      <label for="idsexm">Masculino</label>
+
+      <input type="radio" name="sexo" id="idsexf">
+      <label for="idsexf">Feminino</label>
+    </fieldset>
+    </p>
+
+    <p>
+      <label for="idmail">E-mail:</label>
+      <input type="email" name="mail" id="idmail" size="10" maxlength="30">
+    </p>
+
+    <p>
+      <label for="idsenha">Senha:</label>
+      <input type="password" name="senha" id="idsenha" minlength="6" maxlength="8" size="8">
+    </p>
+
+    <p>
+      <label for="idfone">Telefone:</label>
+      <input type="tel" name="fone" id="idfone" placeholder="(xx) xxxx-xxxx" pattern="\([0-9]{2}\)([\s]) [0-9]{4,6}-[0-9]{4}">
+    </p>
+
+    <p>
+      <label for="idmes">Mês de Aniversário</label>
+      <input type="month" name="mes" id="idmes">
+    </p>
+
+    <p>
+      <label for="iddata">Data:</label>
+      <input type="date" name="data" id="iddata">
+    </p>
+
+
+    <p>
+      <label for="idhora">Hora:</label>
+      <input type="time" name="hora" id="idhora">
+    </p>
+
+    <p>
+      <label for="idcor">Cor do Produto</label>
+      <input type="color" name="cor" id="idcor">
+    </p>
+
+    <p>
+    <fieldset>
+      <legend>Habilidades</legend>
+      <input type="checkbox" name="h1" id="idh1">
+      <label for="idh1">HTML5:</label><br />
+
+      <input type="checkbox" name="h2" id="idh2">
+      <label for="idh2">CSS3:</label><br />
+
+      <input type="checkbox" name="h3" id="idh3">
+      <label for="idh3">JavaScript: </label>
+    </fieldset>
+    </p>
+
+    <p>
+      <input type="submit" value="Enviar">
+
+    </p>
+  </form>
+
+
+</body>
+
+</html>

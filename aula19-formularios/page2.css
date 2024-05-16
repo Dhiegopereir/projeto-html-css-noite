@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  /* margin: 0; */
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  text-align: center;
+}
+.logo img {
+  width: 6em;
+  height: 6em;
+}
+
+form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #758dec;
+}
+
+input[type="text"],
+textarea {
+  border: none;
+  border-bottom: 3px solid #fff;
+  outline: none;
+  padding: 15px;
+  width: 48vh;
+  font-size: 16px;
+  background: none;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+input[type="submit"] {
+  background-color: #fff;
+  width: 50vh;
+  height: 4em;
+  color: #758dec;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3458db;
+  color: #fff;
+}
+
+input[type="email"] {
+  border: none;
+  border-bottom: 3px solid #fff;
+  outline: none;
+  background: none;
+  color: #fff;
+  width: 48vh;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder,
+input[type="email"]::placeholder {
+  color: #a2b3f2;
+}
+
+.icon img {
+  width: 2em;
+  height: 2em;
+  padding: 10px;
+  margin-top: -3em;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  margin-top: 37px;
+  background: #333;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #758dec;
+}

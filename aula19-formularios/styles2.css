@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+* {
+  margin: 0;
+  font-family: Calibri, sans-serif;
+}
+
+header {
+  background: linear-gradient(#506a76, #729fb5);
+  height: 6em;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+}
+
+h1 {
+  font-family: "Alfa Slab One", serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #82b0da;
+  margin: 10px;
+}
+
+legend {
+  text-align: left;
+}
+
+strong {
+  background-color: #bf8c91;
+  border-radius: 20px;
+  padding: 5px;
+  color: #fff;
+}
+.coluna1 {
+  margin-bottom: 100px;
+}
+.colunas p {
+  background-color: #bf8c91;
+  color: #fff;
+  width: 250px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.colunas {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  gap: 30px;
+  margin: auto;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+  display: block; /* Para garantir que a margem horizontal funcione */
+  margin: 0 auto;
+}
+
+.bk,
+.fk {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.corpo {
+  border-color: #96757a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+main {
+  max-width: 900px;
+  margin: 10px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer > h3 {
+  padding: 23px;
+  color: #fff;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  background-color: #506a76;
+  text-align: center;
+  height: 100px;
+}
